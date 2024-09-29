@@ -1,0 +1,30 @@
+@import "ui_variables.sass"
+@import "ui_reset.sass"
+
+@import "ui_indent.sass"
+
+// Main Styles
+body
+  font-family: $fontFamily
+  font-size: $fontSize
+  background-color: $colorMedium
+  color: $colorLight
+a
+  color: $colorLight
+  text-decoration: none
+// Titles
+.title
+  font-size: $fontSizeTitle
+  &.sub
+    font-size: $fontSizeTitle
+// Containers
+.container
+  max-width: $pageMaxWidth
+  margin-left: auto
+  margin-right: auto
+// Links
+a.link
+  color: $colorGrayLight
+  text-decoration: underline
+  &:hover
+    color: $colorLight

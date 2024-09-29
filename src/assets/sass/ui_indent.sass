@@ -1,0 +1,36 @@
+// Paddings and margins
+@import "ui_variables.sass"
+
+@for $i from 1 through 4
+  .p-#{$i}
+    padding: sizeCalc($i)
+  .py-#{$i}
+    padding-top: sizeCalc($i)
+    padding-bottom: sizeCalc($i)
+  .px-#{$i}
+    padding-left: sizeCalc($i)
+    padding-right: sizeCalc($i)
+  .pt-#{$i}
+    padding-top: sizeCalc($i)
+  .pb-#{$i}
+    padding-bottom: sizeCalc($i)
+  .pl-#{$i}
+    padding-left: sizeCalc($i)
+  .pr-#{$i}
+    padding-right: sizeCalc($i)
+  .m-#{$i}
+    margin: sizeCalc($i)
+  .my-#{$i}
+    margin-top: sizeCalc($i)
+    margin-bottom: sizeCalc($i)
+  .mx-#{$i}
+    margin-left: sizeCalc($i)
+    margin-right: sizeCalc($i)
+  .mt-#{$i}
+    margin-top: sizeCalc($i)
+  .mb-#{$i}
+    margin-bottom: sizeCalc($i)
+  .ml-#{$i}
+    margin-left: sizeCalc($i)
+  .mr-#{$i}
+    margin-right: sizeCalc($i)
