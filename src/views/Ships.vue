@@ -27,7 +27,7 @@ const page:Ref<number> = ref(route.query.page ? parseInt(<string>route.query.pag
 const limit:Ref<number> = ref(10)
 const list:Ref<Ships[]> = ref([])
 const count:Ref<number> = ref(0)
-const search:Ref<string> = ref('')
+const search:Ref<string> = ref(route.query.search ? <string>route.query.search : '')
 
 // Methods
 import {fetchShipsList} from "@/fetching/fetchShipsList"
