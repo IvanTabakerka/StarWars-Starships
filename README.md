@@ -1,6 +1,6 @@
-# spaceships-catalog
+# StarWars-Starships
 
-This template should help get you started developing with Vue 3 in Vite.
+Тестирование возможностей Composition API и TypeScript
 
 ## Recommended IDE Setup
 
